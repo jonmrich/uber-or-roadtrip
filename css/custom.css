@@ -1,0 +1,104 @@
+@font-face {
+    font-family: axiform-regular;
+    src: url(../fonts/axiforma-regular.woff);
+}
+@font-face {
+    font-family: axiform-bold;
+    src: url(../fonts/axiforma-bold.woff);
+}
+h1,h2,h3,h4,h5,body,li{
+   font-family: 'axiform-regular', sans-serif;
+}
+.top_logo{
+    width:20%;
+  }
+  .top_marg{
+    margin-top: 3%;
+  }
+  #mileDistance_btwn, #youripaddress, #youraddress{
+    text-align: center;
+  }
+  #mileDistance_btwn{
+    margin-top: 25px;
+  }
+.marg-bot{
+  margin-bottom:20px;
+}
+.vertical-align {
+    display: flex;
+    align-items: center;
+}
+.md-btn{
+  min-width: 150px;
+ font-family: 'axiform-regular', sans-serif;
+ font-size: 16px;
+ text-transform: uppercase;
+}
+#goCurrent{
+
+}
+#address{
+  min-width: 85%;
+}
+#radius{
+  min-width: 30%;
+}
+#cultural{
+  min-width: 60%;
+}
+.questions{
+  font-size: 16px;
+ text-transform: uppercase;
+}
+#tags{
+  min-width: 65%;
+}
+.dobox{
+  display:inline;
+  margin-bottom:20px;
+}
+input[type=text], input[type=password], .tagSelector {
+      -webkit-appearance: textfield;
+    background-color: white;
+    -webkit-rtl-ordering: logical;
+    user-select: text;
+    cursor: auto;
+    padding: 1px;
+    border-width: 2px;
+    border-style: inset;
+    border-color: initial;
+    border-image: initial;
+  cursor: text;
+    display: inline-block;
+  overflow: hidden;
+
+    vertical-align: baseline;
+}
+.tagSelector input {
+  border: none;
+  
+  width: auto;
+  min-width: 50px;
+  float: left;
+    padding: 4px 0;
+  white-space: nowrap
+}
+.tagSelector .tag {
+  background: #375D81;
+  
+  color: #FFF;
+  float: left;
+  height: 100%;
+  padding: 0.1em 0.4em 0.5em;
+  margin-right: 0.3em;
+  margin-bottom: 0.3em;
+    vertical-align: baseline;
+}
+.tagSelector .tag a {
+  color: #FFF;
+  cursor: pointer;
+}
+.tagSelector .tag a:hover {
+  color: #0099CC;
+  text-decoration: none;
+}
